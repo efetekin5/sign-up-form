@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+}
+
+.jungle {
+    width: 800px;
+    height: 1200px;
+}
+
+.jungleDiv {
+    position: absolute;
+    bottom: 390px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.odin {
+    height: 150px;
+    width: 130px;
+}
+
+.odinText {
+    color: white;
+    margin-left: 20px;
+    font-size: 120px;
+    font-family: 'Permanent Marker', sans-serif;
+}
+
+.formPart {
+    background-color: rgb(240,240,240);
+    width: 1700px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 100px;
+}
+
+.userInfo {
+    width: 1600px;
+    background-color: white;
+    position: absolute;
+    height: 500px;
+    left: 800px;
+    top: 400px;
+    padding: 20px;
+    padding-top: 30px;
+}
+
+.form {
+    padding-right: 400px;
+    margin: 20px;
+    width: 1200px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+input {
+    border: 1px solid #E5E7EB;
+    height: 30px;
+    width: 300px;
+}
+
+.inputDiv {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.formText {
+    font-size: 50px;
+    margin-left: 90px;
+    margin-bottom: 50px;
+}
+
+label {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.allInputs {
+    height: 40px;
+    width: 400px;
+    font-size: 24px;
+    padding-left: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px darkgreen;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    position: absolute;
+    left: 913px;
+    top: 955px;
+    width: 300px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: #596D48;
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.formDiv {
+    margin-left: -30px;
+    margin-bottom: 50px;
+}
+
+.logIn {
+    position: absolute;
+    left: 920px;
+    top: 1070px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #596D48;
+    font-weight: bolder;
+}
+
+input:focus {
+    outline: 2px solid cornflowerblue;
+}
+
+.allInputs:focus:invalid {
+    outline: 2px solid red;
+}
